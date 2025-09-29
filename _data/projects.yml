@@ -1,0 +1,26 @@
+- title: "Fraud Detection at Scale"
+stack: "Python, XGBoost, SHAP, Airflow, MLflow"
+link: "https://github.com/YOUR_USERNAME/fraud-detection"
+summary: "수천만 건 트랜잭션에서 이상거래를 탐지하는 대규모 모델 파이프라인 구축"
+metrics:
+- "AUC 0.97 → 0.985 ( +1.5pp )"
+- "월 부정거래 손실 18% 절감"
+- "추론 지연 35% 감소"
+
+
+- title: "Menu NLP Classifier (NICE NASA Challenge)"
+stack: "Python, BERT fine-tuning, Semi-supervised, Data Augmentation"
+link: "https://github.com/YOUR_USERNAME/menu-nlp"
+summary: "다채널 주문 텍스트 자동 분류. 반지도 학습과 ChatGPT 기반 증강을 결합"
+metrics:
+- "Macro-F1 0.78 → 0.90"
+- "수작업 라벨링 비용 50% 절감"
+
+
+- title: "Explainable Credit Scoring"
+stack: "scikit-learn, LightGBM, SHAP, Dash/Plotly"
+link: "https://github.com/YOUR_USERNAME/credit-xai"
+summary: "신용평가 모델에 XAI 도구를 적용하고 대시보드로 설명 제공"
+metrics:
+- "KS 42 → 51"
+- "불합리 리젝 케이스 12% 감소"

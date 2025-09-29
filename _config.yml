@@ -1,0 +1,37 @@
+title: "홍길동 | Data Scientist"
+description: "Statistical ML · XAI · Risk Modeling"
+baseurl: "" # username.github.io 최상위에 두면 빈 문자열
+url: "https://YOUR_USERNAME.github.io" # 커스텀 도메인이면 그 주소로 변경
+
+
+# 테마 및 마크다운
+markdown: kramdown
+theme: minima
+
+
+# 네비게이션(커스텀 include)
+include:
+- _pages
+- _includes
+
+
+# 빌드에서 제외할 항목
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor
+
+
+# 소셜/메타
+author:
+name: "홍길동"
+email: "you@example.com"
+github: "YOUR_USERNAME"
+linkedin: "your-linkedin"
+scholar: "https://scholar.google.com/citations?user=..."
+
+
+# Google Analytics (선택)
+# google_analytics: G-XXXXXXXXXX

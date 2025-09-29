@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<section>
+<h2>About</h2>
+<p>
+데이터 사이언티스트. 관심 분야는 통계적 머신러닝, 설명가능성(XAI), 리스크 모델링.
+대규모 데이터 기반의 모델링과 프로덕션 서빙/모니터링 경험이 있습니다.
+</p>
+</section>
+
+
+<section>
+<h2>Featured Projects</h2>
+{% for p in site.data.projects limit:3 %}
+<div class="card">
+<h3><a href="{{ p.link }}" target="_blank">{{ p.title }}</a></h3>
+<p class="muted">{{ p.stack }}</p>
+<p>{{ p.summary }}</p>
+<ul>
+{% for m in p.metrics %}
+<li>{{ m }}</li>
+{% endfor %}
+</ul>
+</div>
+{% endfor %}
+<p><a href="/projects">→ 전체 프로젝트 보기</a></p>
+</section>
+
+
+<section>
+<h2>Publications & Talks</h2>
+<p>학회·세미나·사내 발표 등 주요 활동을 정리했습니다. <a href="/publications">자세히 보기</a></p>
+</section>
