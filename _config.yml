@@ -1,7 +1,7 @@
 title: "홍길동 | Data Scientist"
 description: "Statistical ML · XAI · Risk Modeling"
-baseurl: "" # username.github.io 최상위에 두면 빈 문자열
-url: "https://YOUR_USERNAME.github.io" # 커스텀 도메인이면 그 주소로 변경
+baseurl: "/niceman119"
+url: "https://niceman119.github.io"
 
 
 # 테마 및 마크다운
@@ -35,3 +35,7 @@ scholar: "https://scholar.google.com/citations?user=..."
 
 # Google Analytics (선택)
 # google_analytics: G-XXXXXXXXXX
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
